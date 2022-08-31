@@ -31,6 +31,12 @@ Data dates back to 1872.
 There are 3 notebooks. One has just single family detached data, another is all property types, the last is just 2fmCon and Duplex.
 gr_liv_area is square footage of home, but only above grade (above ground). If there is a basement at a particular home, this square footage is not included in the gr_liv_area measure.
 
+Interpretation of Model
+
+From the root mean squared error, we can see that we are, on average, $35,563 off on predicting price on the train data
+and $43,116 off on predicting price on test data, from the train/test split of the train dataset.
+
+
 
 What Next
 Things I would like to look into as the project continues:
@@ -38,4 +44,11 @@ Things I would like to look into as the project continues:
 I would like to look at newer data as this data set is through 2010 only.
 I would like to see what features drive 2-family/duplex sale price.
 Is there more data on 2-family/duplex out there? Seems to be a low total for a college town.
+
+Conclusions and Recomendations
+
+It turns out that building type has less of an impact on sale price prediction than originally thought.
+Features have similar impact on predictions, regardless of building type.
+Do we have all data for multi-family homes? Seems low for college town.
+Newer data could increase precision (dataset used is 1872-2010).
 
